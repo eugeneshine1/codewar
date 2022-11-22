@@ -12,8 +12,8 @@ class Kata {
             
             return String.format("%d %d", nums, nums);
           }
-          int highest =-1;
-          int lowest =1;
+          int highest =Integer.MIN_VALUE;
+          int lowest =Integer.MAX_VALUE;
           String [] nm = numbers.split(" ");
          
           for (int x=0; x<nm.length;x++){
