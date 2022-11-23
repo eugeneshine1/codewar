@@ -6,11 +6,17 @@ class Counter {
         // add the catch phrase here for any null values in the array
         // return the count
         int count =0;
-        for (Boolean answer : arrayOfSheeps){
-            if (answer==true){
-              count++;
-            } 
-          }
-          return count;
+        try {
+            for (Boolean answer : arrayOfSheeps){
+                if (answer==true){
+                count++;
+                } 
+            }
+        }
+        catch(NullPointerException e)
+        {
+            System.out.print("NullPointerException caught");
+        }
+        return count;
     }
 }
