@@ -13,6 +13,6 @@ class Maskify {
         for (int i=0; i<str.length()-4;i++) {
             ans+="#";
         }
-        return ans + str.substring(str.length()-4, str.length()-1);
+        return ans + str.substring(str.length()-4);
     }
 }
