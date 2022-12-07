@@ -5,5 +5,13 @@ class NthSeries {
 		// before interating, increase the denominator by 3
 		// interate through till n times
 		// return the sum variable 
+
+	double sum =0.00;
+    double den =1.00;
+    for (int x=1; x<=n; x++) {
+      sum += 1.00/den;
+      den=den+3.00;
+    }
+    return String.format("%.2f", sum);
 	}
 }
