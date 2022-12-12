@@ -1,0 +1,16 @@
+class Kata {
+
+    public int min(int[] list) {
+        //loop through the array and compare it to the intialized variable 
+        //if its less, set the variable equal to that number
+        //at the end of the loop return the variable, which should contain the lowest number
+      return 0;
+    }
+    
+    public int max(int[] list) {
+        //loop through the array and compare it to the intialized variable 
+        //if its greater, set the variable equal to that number
+        //at the end of the loop return the variable, which should contain the greatest number
+      return 0;
+    }
+  }
